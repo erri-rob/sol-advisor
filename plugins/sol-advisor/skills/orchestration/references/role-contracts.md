@@ -1,8 +1,8 @@
 # Native Codex role contracts
 
 Use these contracts with Sol Advisor's namespaced, role-pinned native custom agents.
-Terra remains the stable complex-work role name, pinned to GPT-6 Sol / High;
-Sol primary and reviewer mean GPT-6.1 Sol / High.
+Terra uses GPT-6.1 Terra / High for complex implementation.
+The primary session and reviewer use GPT-6.1 Sol / High.
 They do not launch a nested Codex CLI or change global default-agent routing. Adapt
 every placeholder without removing a required field.
 
@@ -133,7 +133,7 @@ constraint, and surface ambiguity instead of redesigning the architecture.
 
 Use this lane only when a declared delegate or full route selects judgment-heavy,
 high-risk, context-heavy, or wide-blast-radius work, including risk revealed by a
-first Luna result. The installed role pins GPT-6 Sol at high reasoning. A
+first Luna result. The installed role pins GPT-6.1 Terra at high reasoning. A
 corrected Luna attempt is reserved for a specification error and is not a prerequisite
 for Terra.
 

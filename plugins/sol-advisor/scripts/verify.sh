@@ -186,7 +186,7 @@ expected = {
     },
     "sol-advisor-terra-implementer.toml": {
         "name": "sol_advisor_terra_implementer",
-        "model": "gpt-6-sol",
+        "model": "gpt-6.1-terra",
         "model_reasoning_effort": "high",
     },
     "sol-advisor-sol-reviewer.toml": {
@@ -222,7 +222,7 @@ write_v060_roles() {
   target=$1
   mkdir -p "$target"
   sed 's/gpt-6-luna/gpt-5.6-luna/' "$templates/$luna_file" > "$target/$luna_file"
-  sed 's/gpt-6-sol/gpt-5.6-terra/' "$templates/$terra_file" > "$target/$terra_file"
+  sed 's/gpt-6[.]1-terra/gpt-5.6-terra/' "$templates/$terra_file" > "$target/$terra_file"
   sed 's/gpt-6.1-sol/gpt-5.6-sol/' "$templates/$sol_file" > "$target/$sol_file"
   for entry in \
     "$luna_file:12fa9180a292876e6731bc325779123bcd931c3caa902fbf90d676a31833be84" \

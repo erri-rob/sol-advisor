@@ -16,8 +16,7 @@ delegation. Use [references/operations.md](references/operations.md) for exact s
 preflight, runtime-evidence, isolation, and maintainer procedures.
 
 The primary session and fresh Sol reviewer use `gpt-6.1-sol` / `high`.
-Luna uses `gpt-6-luna` / `max`. Terra is the retained complex-work role name
-and uses `gpt-6-sol` / `high`; it does not select a Terra model.
+Luna uses `gpt-6-luna` / `max`. Terra uses `gpt-6.1-terra` / `high`.
 
 ## Confirm the primary session
 
