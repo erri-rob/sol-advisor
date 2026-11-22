@@ -14,8 +14,7 @@ The installed TOMLs are the source of truth:
 | sol_advisor_terra_implementer | gpt-6.1-terra | high | Delegate/full judgment-heavy or high-risk implementation |
 | sol_advisor_sol_reviewer | gpt-6.1-sol | high | Audit/full fresh review; requests read-only sandbox |
 
-Terra denotes GPT-6.1 Terra for the complex-work implementer. Sol denotes
-GPT-6.1 Sol for the primary session and fresh reviewer.
+The primary session accepts `gpt-6.2-sol` or `gpt-6.1-sol` at `high`.
 The installer also recognizes only the byte-exact upstream v0.6.0 profiles for
 this model migration; historical fingerprints remain immutable.
 

@@ -2,7 +2,8 @@
 
 Use these contracts with Sol Advisor's namespaced, role-pinned native custom agents.
 Terra uses GPT-6.1 Terra / High for complex implementation.
-The primary session and reviewer use GPT-6.1 Sol / High.
+The primary session accepts GPT-6.2 Sol / High or GPT-6.1 Sol / High.
+The reviewer uses GPT-6.1 Sol / High.
 They do not launch a nested Codex CLI or change global default-agent routing. Adapt
 every placeholder without removing a required field.
 

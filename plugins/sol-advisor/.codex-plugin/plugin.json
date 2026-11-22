@@ -11,7 +11,7 @@
   "interface": {
     "displayName": "Sol Advisor",
     "shortDescription": "Plan with Sol / High, declare a risk-gated route, and use at most one auxiliary by default.",
-    "longDescription": "Sol Advisor keeps GPT-6.1 Sol / High in the primary session for architecture, implementation when solo or audit is selected, verification, and acceptance. Before the first task tool call, Sol declares a machine-auditable SELECTIVE ROUTE: solo is the default; delegate uses native GPT-6 Luna / Max for bounded work or GPT-6.1 Terra / High for higher-risk work; audit uses a fresh read-only GPT-6.1 Sol / High review; full combines one selected implementer with a fresh review only for a broad or high-risk exception. Public role metadata is authoritative and missing, conflicting, unavailable, or unobservable routing evidence fails closed.",
+    "longDescription": "Sol Advisor uses GPT-6.2 Sol or GPT-6.1 Sol at High in the primary session for architecture, implementation when solo or audit is selected, verification, and acceptance. Before the first task tool call, Sol declares a machine-auditable SELECTIVE ROUTE: solo is the default; delegate uses native GPT-6 Luna / Max for bounded work or GPT-6.1 Terra / High for higher-risk work; audit uses a fresh read-only GPT-6.1 Sol / High review; full combines one selected implementer with a fresh review only for a broad or high-risk exception. Public role metadata is authoritative and missing, conflicting, unavailable, or unobservable routing evidence fails closed.",
     "developerName": "Daniel McAteer",
     "category": "Productivity",
     "capabilities": ["Interactive", "Write"],
